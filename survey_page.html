@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Page</title>
+</head>
+<body>
+    <a href="">Home</a> <br>
+    <a href="">Resources</a> <br>
+    <a href="">Additional BSM’s</a>
+    <section>
+        <form action="./index.html" method="POST">
+            <h1>Future Orientation Survey</h1>
+            <p>Anticipates future consequences and plan ahead before acting</p>
+            <!--Personal Information-->
+            
+            <label for="full_name">Full Name</label>
+            <input type="text" name="FullName" id="full_name"> <br>
+            <label for="d_o_b">Age</label>
+            <input type="number" name="age" id="d_o_b"><br>
+            <h3>Please indicate your gender</h3>
+            <label for="gender">Male</label>
+            <input type="radio" name="gender" id="gender">
+            <label for="gender">Other</label>
+            <input type="radio" name="gender" id="gender">
+ 
+ 
+            <br>
+            <br>
+            <h3>I expect that I will set many new goals in the future</h3>
+                <label for="question" value="yes">Yes</label>
+                <input type="radio" name="question" id="question">
+                <label for="question" value="no">No</label>
+                <input type="radio" name="question" id="question">
+                <label for="question" value="maybe">Maybe</label>
+                <input type="radio" name="question" id="question">
+           
+            <h3>Most of my life lies ahead of me?</h3>
+ 
+                <label for="question" value="yes">Yes</label>
+                <input type="radio" name="question" id="question">
+                <label for="question" value="no">No</label>
+                <input type="radio" name="question" id="question">
+                <label for="question" value="maybe">Maybe</label>
+                <input type="radio" name="question" id="question">
+            <br>
+            <br>
+ 
+            <h3>There is plenty of time left in my life to make new plans</h3>
+                <label for="question" value="yes">Yes</label>
+                <input type="radio" name="question" id="question">
+                <label for="question" value="no">No</label>
+                <input type="radio" name="question" id="question">
+                <label for="question" value="maybe">Maybe</label>
+                <input type="radio" name="question" id="question">
+ 
+                </label>
+            <h3>On a scale of 1-5, have the sense that time is running out?</h3>
+            <input type="range" name="question-4" id="question-4" step="1" max="5">
+            <br>
+            <br>
+            <h3>As I get older, I begin to experience time as limited.</h3>
+            <label for="question" value="yes">Yes</label>
+                <input type="radio" name="question" id="question">
+                <label for="question" value="no">No</label>
+                <input type="radio" name="question" id="question">
+                <label for="question" value="maybe">Maybe</label>
+                <input type="radio" name="question" id="question">
+            <br>
+            <br>
+            <label for="comments">Additional Comments </label>
+            <br>
+            <textarea id="comments" name="comments" rows="5" cols="30">
+            </textarea>
+            <br>
+ 
+            <input type="submit" value="Send">
+ 
+ 
+ 
+ 
+ 
+        </form>
+    </section>
+   
+</body>
+</html>
