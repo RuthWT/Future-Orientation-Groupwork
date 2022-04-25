@@ -24,8 +24,8 @@
             <input type="radio" name="gender" id="gender">
             <label for="gender">Other</label>
             <input type="radio" name="gender" id="gender">
-
-
+ 
+ 
             <br>
             <br>
             <h3>I expect that I will set many new goals in the future</h3>
@@ -35,9 +35,9 @@
                 <input type="radio" name="question" id="question">
                 <label for="question" value="maybe">Maybe</label>
                 <input type="radio" name="question" id="question">
-            
+           
             <h3>Most of my life lies ahead of me?</h3>
-
+ 
                 <label for="question" value="yes">Yes</label>
                 <input type="radio" name="question" id="question">
                 <label for="question" value="no">No</label>
@@ -46,7 +46,7 @@
                 <input type="radio" name="question" id="question">
             <br>
             <br>
-
+ 
             <h3>There is plenty of time left in my life to make new plans</h3>
                 <label for="question" value="yes">Yes</label>
                 <input type="radio" name="question" id="question">
@@ -54,7 +54,7 @@
                 <input type="radio" name="question" id="question">
                 <label for="question" value="maybe">Maybe</label>
                 <input type="radio" name="question" id="question">
-
+ 
                 </label>
             <h3>On a scale of 1-5, have the sense that time is running out?</h3>
             <input type="range" name="question-4" id="question-4" step="1" max="5">
@@ -74,15 +74,15 @@
             <textarea id="comments" name="comments" rows="5" cols="30">
             </textarea>
             <br>
-
+ 
             <input type="submit" value="Send">
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
         </form>
     </section>
-    
+   
 </body>
 </html>
