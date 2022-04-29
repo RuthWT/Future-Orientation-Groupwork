@@ -11,14 +11,14 @@ img[src*="9k"]{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     border-radius: 8%;
 }
 img[src*="11YDXQ@2x"]{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 8%;
 }
